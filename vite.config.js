@@ -11,7 +11,7 @@ export default defineConfig({
   ],
   // publicPath: process.env.NODE_ENV === "production" ? "/catsforge.github.io/" : "/",
   // homepage: "https://gregorczykwiktor.github.io/",
-  base: '/catsforge.github.io',
+  base: './',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
