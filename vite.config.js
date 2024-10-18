@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
   ],
   publicPath: process.env.NODE_ENV === "production" ? "/catsforge.github.io/" : "/",
+  homepage: "https://gregorczykwiktor.github.io/catsforge.github.io/",
   // base: '/catsforge.github.io/',
   resolve: {
     alias: {
