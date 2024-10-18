@@ -1,7 +1,7 @@
 {
   "name": "catsforge",
   "version": "0.0.0",
-  "homepage": "https://gregorczykwiktor.github.io/catsforge.github.io/",
+  "homepage": "https://catsforge.eripse.pl/",
   "private": true,
   "type": "module",
   "scripts": {

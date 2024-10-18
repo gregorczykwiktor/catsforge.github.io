@@ -9,9 +9,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  // publicPath: process.env.NODE_ENV === "production" ? "/catsforge.github.io/" : "/",
-  // homepage: "https://gregorczykwiktor.github.io/",
-  base: './',
+  base: './catsforge.github.io',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
