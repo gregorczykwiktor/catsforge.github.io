@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: '/catsforge.github.io',
+  base: '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
